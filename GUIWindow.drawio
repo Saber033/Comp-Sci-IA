@@ -10,11 +10,11 @@
             <mxPoint x="323.7" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UsuCnhHAHg_JXia3XkVa-7" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;AK::Wwise::Plugin::GUIWindow&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;Loads xml file with controls that have been defined for the plugin. The control is called the Authoring Filename and is of type string.&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="190" y="80" width="280" height="80" as="geometry" />
+        <mxCell id="UsuCnhHAHg_JXia3XkVa-7" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;AK::Wwise::Plugin::GUIWindow&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;Loads xml file with controls that have been defined for the plugin. The control is called the Authoring Filename and is of type string.&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;spacingTop=0;spacingLeft=0;spacingBottom=0;spacingRight=0;perimeterSpacing=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="80" width="270" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UsuCnhHAHg_JXia3XkVa-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Render-in-place plugin GUI&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;Registers the custom UI with the plugin system and the render-in-place plugin&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="234" y="220" width="180" height="90" as="geometry" />
+          <mxGeometry x="190" y="220" width="270" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
