@@ -4,24 +4,22 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="AK::IAKPluginParam" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="417.5" y="130" width="255" height="25" as="geometry">
-            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="Render-In-Place FX Params" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="220" y="240" width="650" height="138" as="geometry">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="Render-In-Place FX Params" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="220" y="240" width="650" height="146" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jRMsdsLBTb_23Ixo8NRA-0" value="&lt;ul&gt;&lt;li&gt;Clone: Duplicates the settings&lt;/li&gt;&lt;li&gt;Init: Called when the audio plugin begins&lt;/li&gt;&lt;li&gt;Term: Called when the audio plugin terminates&lt;/li&gt;&lt;li&gt;GetParamsBlock: Gets all of the parameter data out of a block of data&lt;/li&gt;&lt;li&gt;SetParam: Updates a single parameter at a time - called when a parameter is changed in the authoring tool&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
-          <mxGeometry y="26" width="650" height="110" as="geometry" />
+        <mxCell id="jRMsdsLBTb_23Ixo8NRA-0" value="&lt;div&gt;&lt;b&gt;Implements:&lt;/b&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Clone: Duplicates the settings&lt;/li&gt;&lt;li&gt;Init: Called when the audio plugin begins&lt;/li&gt;&lt;li&gt;Term: Called when the audio plugin terminates&lt;/li&gt;&lt;li&gt;GetParamsBlock: Gets all of the parameter data out of a block of data&lt;/li&gt;&lt;li&gt;SetParam: Updates a single parameter at a time - called when a parameter is changed in the authoring tool&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--6">
+          <mxGeometry y="26" width="650" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--12" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--6" target="zkfFHV4jXpPFQw0GAbJ--0" edge="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--12" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--6" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="200" y="203" as="sourcePoint" />
-            <mxPoint x="200" y="203" as="targetPoint" />
+            <mxPoint x="545" y="155" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jRMsdsLBTb_23Ixo8NRA-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AK:IAKPluginParam&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;When the plugin loads up, captures the selected voice parameters&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;b&gt;Interface:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;ul&gt;&lt;li&gt;Clone&lt;/li&gt;&lt;li&gt;Init&lt;/li&gt;&lt;li&gt;Term&lt;/li&gt;&lt;li&gt;GetParamsBlock&lt;/li&gt;&lt;li&gt;SetParam&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" width="290" height="155" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
